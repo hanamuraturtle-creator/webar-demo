@@ -10,7 +10,7 @@
 
   <!-- AR対応3Dビューア -->
   <script type="module"
-    src="./mascot.glb"
+    src="https://unpkg.com/@google/model-viewer@4.4.0/dist/model-viewer.min.js">
   </script>
 
   <style>
@@ -70,8 +70,11 @@
   </p>
 
   <model-viewer
-    src="./mascot.glb"
-    alt="コーヒーに浸かる男性の3Dキャラクター"
+    src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+
+    ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+
+    alt="宇宙飛行士の3Dキャラクター"
 
     ar
     ar-modes="webxr scene-viewer quick-look"
